@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  background: #d3a562;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 400;
+  transition: 1s;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #95bb69;
+}
+
+.btn__nav {
+  transition: 1s;
+}
+
+.btn__nav:hover {
+  background: #95bb69;
+}
+
+.nav__list {
+  transition: 1s;
+}
+
+.nav__list:hover a {
+  color: #4a67e8;
+}
+
+/* .hero__img__mobile {
+  background-image: url(./images/hero-img-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.none{
+  display: none;
+}
